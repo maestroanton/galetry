@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galetry</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+  <script type="text/javascript" src="backapi.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1 class="logo">Galetry</h1>
+  </header>
+
+  <div class="profile">
+    <section class="profile-img">
+      <img src="/assets/imgs/profile.png" alt="Foto de perfil">
+    </section>
+
+    <section class="profile-info">
+      <h2></h2>
+      <button class="edit-btn">✏️ Editar nome</button>
+    </section>
+
+    <section class="stats">
+      <span>35 <span class="cinza">publicações</span></span>
+      <span>0 <span class="cinza">seguidores</span></span>
+      <span>0 <span class="cinza">seguindo</span></span>
+    </section>
+
+    <section class="bio">
+      <p>Biografia aleatória</p>
+    </section>
+  </div>
+
+  <div class="divider"></div>
+
+  <section class="controls">
+      <button class="add-post" id="add-post-btn">+ Post</button>
+      <button class="remove-post">- Post</button>
+    <input type="file" id="image-upload" style="display: none;" accept="image/*">
+  </section>
+
+  <section class="posts">
+
+  </section>
+</body>
+
+</html>
