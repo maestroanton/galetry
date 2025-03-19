@@ -7,6 +7,7 @@
   <title>Galetry</title>
   <link rel="stylesheet" href="styles.css">
   <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+  <script src="https://kit.fontawesome.com/a1e181d071.js" crossorigin="anonymous"></script>
   <script type="text/javascript" src="backapi.js"></script>
 </head>
 
@@ -47,6 +48,26 @@
   <section class="posts">
 
   </section>
+
+  <div id="carousel-overlay" class="carousel-overlay">
+    <div id="carousel-modal" class="carousel-modal">
+      <button id="carousel-close-btn" class="carousel-close-btn">&times;</button>
+      <div class="carousel-content"> <div class="carousel-image-container">
+          <img id="carousel-image" class="carousel-image" src="" alt="Imagem do Post">
+          <div class="carousel-nav-buttons"> <button id="carousel-prev-btn" class="carousel-nav-btn">&lt;</button>
+            <button id="carousel-next-btn" class="carousel-nav-btn">&gt;</button>
+          </div>
+        </div>
+        <div class="carousel-comments">
+          <h3>Comentários</h3>
+          <div class="comments-list">
+            </div>
+          <textarea id="comment-input" placeholder="Adicione um comentário..."></textarea>
+          <button id="submit-comment-btn">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
